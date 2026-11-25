@@ -8,6 +8,7 @@ The project aims to monitor surrounding noise levels through an ESP32-based sens
 
 Alongside the IoT monitoring component, the project explores audio classification techniques using the ESC-50 environmental sound dataset, with the goal of extending basic noise monitoring into more intelligent sound analysis.
 
+Note: The IoT hardware setup was simulated in Wokwi. No physical ESP32 or sensor hardware was assembled or deployed.
 ---
 
 ## 🎯 Problem Statement
@@ -384,6 +385,7 @@ The current implementation includes MQTT-based sensor reading reception, Streaml
 
 The following capabilities are not yet integrated into a complete system:
 
+- Build a real IoT model, 
 - Real-time AI sound classification from the ESP32 monitoring stream.
 - Automatic identification of specific environmental sounds through the live dashboard.
 - Calibrated sound-pressure measurements in decibels.
